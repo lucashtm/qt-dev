@@ -4,6 +4,7 @@ RUN pacman -S --noconfirm \
     base-devel \
     git \
     cmake \
-    qt6-base
+    qt5-base \
+    qt5-multimedia
 
 ENTRYPOINT ["/bin/bash"]
